@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6620EF0214BA4219002209CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF0114BA4219002209CF /* Foundation.framework */; };
+		6620EF0414BA4219002209CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF0314BA4219002209CF /* UIKit.framework */; };
+		6620EF0614BA4219002209CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF0514BA4219002209CF /* CoreGraphics.framework */; };
+		6620EF0814BA4219002209CF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF0714BA4219002209CF /* AddressBook.framework */; };
+		6620EF0A14BA4219002209CF /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF0914BA4219002209CF /* AddressBookUI.framework */; };
+		6620EF0C14BA4219002209CF /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF0B14BA4219002209CF /* AudioToolbox.framework */; };
+		6620EF0E14BA4219002209CF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF0D14BA4219002209CF /* AVFoundation.framework */; };
+		6620EF1014BA4219002209CF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF0F14BA4219002209CF /* CoreLocation.framework */; };
+		6620EF1214BA4219002209CF /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF1114BA4219002209CF /* MediaPlayer.framework */; };
+		6620EF1414BA4219002209CF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF1314BA4219002209CF /* QuartzCore.framework */; };
+		6620EF1614BA4219002209CF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF1514BA4219002209CF /* SystemConfiguration.framework */; };
+		6620EF1814BA4219002209CF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF1714BA4219002209CF /* MobileCoreServices.framework */; };
+		6620EF1A14BA4219002209CF /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF1914BA4219002209CF /* CoreMedia.framework */; };
+		6620EF2014BA4219002209CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF1E14BA4219002209CF /* InfoPlist.strings */; };
+		6620EF2314BA4219002209CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6620EF2214BA4219002209CF /* main.m */; };
+		6620EF2514BA4219002209CF /* PhoneGap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6620EF2414BA4219002209CF /* PhoneGap.framework */; };
+		6620EF2A14BA4219002209CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF2814BA4219002209CF /* Localizable.strings */; };
+		6620EF2E14BA4219002209CF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF2C14BA4219002209CF /* Localizable.strings */; };
+		6620EF3114BA4219002209CF /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF3014BA4219002209CF /* icon.png */; };
+		6620EF3314BA4219002209CF /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF3214BA4219002209CF /* icon@2x.png */; };
+		6620EF3514BA4219002209CF /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF3414BA4219002209CF /* icon-72.png */; };
+		6620EF3814BA4219002209CF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF3714BA4219002209CF /* Default.png */; };
+		6620EF3A14BA4219002209CF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF3914BA4219002209CF /* Default@2x.png */; };
+		6620EF3C14BA4219002209CF /* Capture.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF3B14BA4219002209CF /* Capture.bundle */; };
+		6620EF3E14BA4219002209CF /* PhoneGap.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6620EF3D14BA4219002209CF /* PhoneGap.plist */; };
+		6620EF4214BA4219002209CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6620EF4114BA4219002209CF /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6620EEFD14BA4219002209CF /* DerbyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DerbyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6620EF0114BA4219002209CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6620EF0314BA4219002209CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6620EF0514BA4219002209CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6620EF0714BA4219002209CF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		6620EF0914BA4219002209CF /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		6620EF0B14BA4219002209CF /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6620EF0D14BA4219002209CF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6620EF0F14BA4219002209CF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6620EF1114BA4219002209CF /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6620EF1314BA4219002209CF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6620EF1514BA4219002209CF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6620EF1714BA4219002209CF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6620EF1914BA4219002209CF /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6620EF1D14BA4219002209CF /* DerbyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DerbyApp-Info.plist"; sourceTree = "<group>"; };
+		6620EF1F14BA4219002209CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6620EF2114BA4219002209CF /* DerbyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DerbyApp-Prefix.pch"; sourceTree = "<group>"; };
+		6620EF2214BA4219002209CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6620EF2414BA4219002209CF /* PhoneGap.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhoneGap.framework; path = /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework; sourceTree = "<absolute>"; };
+		6620EF2914BA4219002209CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Resources/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6620EF2D14BA4219002209CF /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = Resources/es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		6620EF3014BA4219002209CF /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = Resources/icons/icon.png; sourceTree = "<group>"; };
+		6620EF3214BA4219002209CF /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon@2x.png"; path = "Resources/icons/icon@2x.png"; sourceTree = "<group>"; };
+		6620EF3414BA4219002209CF /* icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon-72.png"; path = "Resources/icons/icon-72.png"; sourceTree = "<group>"; };
+		6620EF3714BA4219002209CF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/splash/Default.png; sourceTree = "<group>"; };
+		6620EF3914BA4219002209CF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Resources/splash/Default@2x.png"; sourceTree = "<group>"; };
+		6620EF3B14BA4219002209CF /* Capture.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Capture.bundle; path = Resources/Capture.bundle; sourceTree = "<group>"; };
+		6620EF3D14BA4219002209CF /* PhoneGap.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PhoneGap.plist; sourceTree = "<group>"; };
+		6620EF4014BA4219002209CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
+		6620EF4114BA4219002209CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
+		6620EF4414BA4219002209CF /* README */ = {isa = PBXFileReference; lastKnownFileType = text; name = README; path = Plugins/README; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6620EEF714BA4219002209CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6620EF0214BA4219002209CF /* Foundation.framework in Frameworks */,
+				6620EF0414BA4219002209CF /* UIKit.framework in Frameworks */,
+				6620EF0614BA4219002209CF /* CoreGraphics.framework in Frameworks */,
+				6620EF0814BA4219002209CF /* AddressBook.framework in Frameworks */,
+				6620EF0A14BA4219002209CF /* AddressBookUI.framework in Frameworks */,
+				6620EF0C14BA4219002209CF /* AudioToolbox.framework in Frameworks */,
+				6620EF0E14BA4219002209CF /* AVFoundation.framework in Frameworks */,
+				6620EF1014BA4219002209CF /* CoreLocation.framework in Frameworks */,
+				6620EF1214BA4219002209CF /* MediaPlayer.framework in Frameworks */,
+				6620EF1414BA4219002209CF /* QuartzCore.framework in Frameworks */,
+				6620EF1614BA4219002209CF /* SystemConfiguration.framework in Frameworks */,
+				6620EF1814BA4219002209CF /* MobileCoreServices.framework in Frameworks */,
+				6620EF1A14BA4219002209CF /* CoreMedia.framework in Frameworks */,
+				6620EF2514BA4219002209CF /* PhoneGap.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6620EEFA14BA4219002209CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6620EEEF14BA4219002209CF = {
+			isa = PBXGroup;
+			children = (
+				6620EF1B14BA4219002209CF /* DerbyApp */,
+				6620EF0014BA4219002209CF /* Frameworks */,
+				6620EEFE14BA4219002209CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6620EEFE14BA4219002209CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6620EEFD14BA4219002209CF /* DerbyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6620EF0014BA4219002209CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF0114BA4219002209CF /* Foundation.framework */,
+				6620EF0314BA4219002209CF /* UIKit.framework */,
+				6620EF0514BA4219002209CF /* CoreGraphics.framework */,
+				6620EF0714BA4219002209CF /* AddressBook.framework */,
+				6620EF0914BA4219002209CF /* AddressBookUI.framework */,
+				6620EF0B14BA4219002209CF /* AudioToolbox.framework */,
+				6620EF0D14BA4219002209CF /* AVFoundation.framework */,
+				6620EF0F14BA4219002209CF /* CoreLocation.framework */,
+				6620EF1114BA4219002209CF /* MediaPlayer.framework */,
+				6620EF1314BA4219002209CF /* QuartzCore.framework */,
+				6620EF1514BA4219002209CF /* SystemConfiguration.framework */,
+				6620EF1714BA4219002209CF /* MobileCoreServices.framework */,
+				6620EF1914BA4219002209CF /* CoreMedia.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6620EF1B14BA4219002209CF /* DerbyApp */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF2414BA4219002209CF /* PhoneGap.framework */,
+				6620EF2614BA4219002209CF /* Resources */,
+				6620EF3F14BA4219002209CF /* Classes */,
+				6620EF4314BA4219002209CF /* Plugins */,
+				6620EF1C14BA4219002209CF /* Supporting Files */,
+			);
+			path = DerbyApp;
+			sourceTree = "<group>";
+		};
+		6620EF1C14BA4219002209CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF1D14BA4219002209CF /* DerbyApp-Info.plist */,
+				6620EF1E14BA4219002209CF /* InfoPlist.strings */,
+				6620EF2114BA4219002209CF /* DerbyApp-Prefix.pch */,
+				6620EF2214BA4219002209CF /* main.m */,
+				6620EF3D14BA4219002209CF /* PhoneGap.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6620EF2614BA4219002209CF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF3B14BA4219002209CF /* Capture.bundle */,
+				6620EF2714BA4219002209CF /* en.lproj */,
+				6620EF2B14BA4219002209CF /* es.lproj */,
+				6620EF2F14BA4219002209CF /* icons */,
+				6620EF3614BA4219002209CF /* splash */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6620EF2714BA4219002209CF /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF2814BA4219002209CF /* Localizable.strings */,
+			);
+			name = en.lproj;
+			sourceTree = "<group>";
+		};
+		6620EF2B14BA4219002209CF /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF2C14BA4219002209CF /* Localizable.strings */,
+			);
+			name = es.lproj;
+			sourceTree = "<group>";
+		};
+		6620EF2F14BA4219002209CF /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF3014BA4219002209CF /* icon.png */,
+				6620EF3214BA4219002209CF /* icon@2x.png */,
+				6620EF3414BA4219002209CF /* icon-72.png */,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		6620EF3614BA4219002209CF /* splash */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF3714BA4219002209CF /* Default.png */,
+				6620EF3914BA4219002209CF /* Default@2x.png */,
+			);
+			name = splash;
+			sourceTree = "<group>";
+		};
+		6620EF3F14BA4219002209CF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF4014BA4219002209CF /* AppDelegate.h */,
+				6620EF4114BA4219002209CF /* AppDelegate.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		6620EF4314BA4219002209CF /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				6620EF4414BA4219002209CF /* README */,
+			);
+			name = Plugins;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6620EEFC14BA4219002209CF /* DerbyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6620EF4714BA4219002209CF /* Build configuration list for PBXNativeTarget "DerbyApp" */;
+			buildPhases = (
+				6620EEF614BA4219002209CF /* Sources */,
+				6620EEF714BA4219002209CF /* Frameworks */,
+				6620EEF814BA4219002209CF /* Resources */,
+				6620EEF914BA4219002209CF /* Sources */,
+				6620EEFA14BA4219002209CF /* Frameworks */,
+				6620EEFB14BA4219002209CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DerbyApp;
+			productName = DerbyApp;
+			productReference = 6620EEFD14BA4219002209CF /* DerbyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6620EEF114BA4219002209CF /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6620EEF414BA4219002209CF /* Build configuration list for PBXProject "DerbyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				es,
+			);
+			mainGroup = 6620EEEF14BA4219002209CF;
+			productRefGroup = 6620EEFE14BA4219002209CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6620EEFC14BA4219002209CF /* DerbyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6620EEF814BA4219002209CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6620EF2014BA4219002209CF /* InfoPlist.strings in Resources */,
+				6620EF2A14BA4219002209CF /* Localizable.strings in Resources */,
+				6620EF2E14BA4219002209CF /* Localizable.strings in Resources */,
+				6620EF3114BA4219002209CF /* icon.png in Resources */,
+				6620EF3314BA4219002209CF /* icon@2x.png in Resources */,
+				6620EF3514BA4219002209CF /* icon-72.png in Resources */,
+				6620EF3814BA4219002209CF /* Default.png in Resources */,
+				6620EF3A14BA4219002209CF /* Default@2x.png in Resources */,
+				6620EF3C14BA4219002209CF /* Capture.bundle in Resources */,
+				6620EF3E14BA4219002209CF /* PhoneGap.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6620EEFB14BA4219002209CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "\n\t\t\t\t\t\t\t\tif [ ! -d \"$PROJECT_DIR/www\" ] ; then\n\t\t\t\t\t\t\t\t\tcp -R /Users/Shared/PhoneGap/Frameworks/PhoneGap.framework/www \"$PROJECT_DIR\"\n\t\t\t\t\t\t\t\tfi\n\t\t\t\t\t\t\t\t# detect www folder reference in project, if missing, print warning\n\t\t\t\t\t\t\t\tgrep \"{isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = \\\"<group>\\\"; };\" \"$PROJECT_DIR/$PROJECT_NAME.xcodeproj/project.pbxproj\"\n\t\t\t\t\t\t\t\trc=$? \n\t\t\t\t\t\t\t\tif [ $rc != 0 ] ; then\n\t\t\t\t\t\t\t\techo -e \"warning: Missing - Add $PROJECT_DIR/www as a folder reference in your project. Just drag and drop the folder into your project, into the Project Navigator of Xcode 4. Make sure you select the second radio-button: 'Create folder references for any added folders' (which will create a blue folder)\" 1>&2\n\t\t\t\t\t\t\t\tfi\t\t\t\t\t\t\t";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6620EEF614BA4219002209CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6620EF2314BA4219002209CF /* main.m in Sources */,
+				6620EF4214BA4219002209CF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6620EEF914BA4219002209CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6620EF1E14BA4219002209CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6620EF1F14BA4219002209CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6620EF2814BA4219002209CF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6620EF2914BA4219002209CF /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		6620EF2C14BA4219002209CF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6620EF2D14BA4219002209CF /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6620EF4514BA4219002209CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6620EF4614BA4219002209CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		6620EF4814BA4219002209CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DerbyApp/DerbyApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "DerbyApp/DerbyApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak_library",
+					/usr/lib/libSystem.B.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6620EF4914BA4219002209CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Users/Shared/PhoneGap/Frameworks;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DerbyApp/DerbyApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = "PHONEGAP_FRAMEWORK=YES";
+				INFOPLIST_FILE = "DerbyApp/DerbyApp-Info.plist";
+				OTHER_LDFLAGS = (
+					"-weak_framework",
+					UIKit,
+					"-weak_framework",
+					AVFoundation,
+					"-weak_framework",
+					CoreMedia,
+					"-weak_library",
+					/usr/lib/libSystem.B.dylib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6620EEF414BA4219002209CF /* Build configuration list for PBXProject "DerbyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6620EF4514BA4219002209CF /* Debug */,
+				6620EF4614BA4219002209CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6620EF4714BA4219002209CF /* Build configuration list for PBXNativeTarget "DerbyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6620EF4814BA4219002209CF /* Debug */,
+				6620EF4914BA4219002209CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6620EEF114BA4219002209CF /* Project object */;
+}
